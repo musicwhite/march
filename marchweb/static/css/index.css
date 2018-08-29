@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+}
+.navbar {
+    width: 1230px;
+    margin: 0 auto;
+}
+.carousel {
+    width: 1230%;
+    margin: 0 auto;
+}
+.specialmenu {
+    background-color: gray;
+}
+.container-fluid{
+
+}
+.carousel{
+
+}
+
+.hot{
+    /*margin: 0;*/
+    /*padding: 0;*/
+    width: 1230px;
+    /*width:1200px;*/
+    height: 350px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.hot .news{
+    width: 610px;
+    height: 350px;
+    /*border: 1px solid pink;*/
+    float: left;
+}
+.hot .news .news_title{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid lightseagreen;*/
+    color:red;
+    font-size: 30px;
+}
+.hot .news .news_list{
+    width: 100%;
+    height: 300px;
+    /*border: 1px solid lightcoral;*/
+}
+.hot .news .news_list ul{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.hot .news .news_list ul li{
+    height: 30px;
+    line-height: 30px;
+    /*border: 1px solid red;*/
+    font-size: 16px;
+}
+.hot .news .news_list ul li a{
+    text-decoration: none;
+}
+.hot .mycycle{
+    width: 600px;
+    height: 350px;
+    /*border: 1px solid darkslategray;*/
+    /*display: inline;*/
+    float: right;
+}
+.hot .mycycle .imagenews{
+    width: 100%;
+    height: 100%;
+}
+.hot .mycycle img{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.sy_gwy{
+    width: 1230px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.sy_sydw{
+    width: 1230px;
+    height: 400px;
+    border: 1px solid pink;
+    margin: 0 auto;
+}
+.sy_js {
+    width: 1230px;
+    height: 400px;
+    border: 1px solid yellow;
+    margin: 0 auto;
+}
+
+.sy_gwy .sy_gwy_titleline{
+    width:100%;
+    height:60px;
+    /*border: 1px solid blue;*/
+    /*padding: 0;*/
+}
+.sy_gwy .sy_gwy_titleline .sy_gwy_title{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    /*background-color: black;*/
+    color: red;
+    font-size: 30px;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: bottom;
+    /*text-align: center;*/
+    /*vertical-align: center;*/
+}
+
+.sy_gwy .sy_gwy_titleline .sy_gwy_menu{
+    width: 1000px;
+    height: 60px;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    /*display: inline-block;*/
+    vertical-align: bottom;
+
+    /*float: left;*/
+    position: relative;
+}
+.sy_gwy .sy_gwy_titleline .sy_gwy_menu ul{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sy_gwy .sy_gwy_titleline .sy_gwy_menu ul li {
+    height: 60px;
+    line-height: 60px;
+    width: 100px;
+    display: block;
+    float: left;
+    /*position: absolute;*/
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid gray;*/
+    /*vertical-align: bottom;*/
+    /*margin-top: 20px;*/
+}
+.sy_gwy .sy_gwy_titleline .sy_gwy_menu ul li a{
+    /*width: 80px;*/
+    /*height: 60px;*/
+}
+
+.sy_gwy .sy_gwy_titleline .sy_gwy_menu li.active{
+    border-top: 2px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+/*.sy_gwy .sy_gwy_titleline .sy_gwy_menu li:nth-child(2){*/
+    /*left: 80px;*/
+/*}*/
+/*.sy_gwy .sy_gwy_titleline .sy_gwy_menu li:nth-child(3){*/
+    /*left: 160px;*/
+/*}*/
+
+.sy_gwy .sy_gwy_container{
+    width:100%;
+    height:340px;
+    border: 1px solid purple;
+}
+.sy_sydw .sy_sydw_title{
+    width:100%;
+    height:60px;
+    border: 1px solid blue;
+}
+.sy_sydw .sy_sydw_container{
+    width:100%;
+    height:340px;
+    border: 1px solid purple;
+}
+.sy_js .sy_js_title{
+    width:100%;
+    height:60px;
+    border: 1px solid blue;
+}
+.sy_js .sy_js_container{
+    width:100%;
+    height:340px;
+    border: 1px solid purple;
+}
