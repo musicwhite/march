@@ -5,11 +5,13 @@ body{
     /*background-color: #f0f3ef;*/
 }
 .navbar {
-    width: 1230px;
+    width: 100%;
+    /*width: 1230px;*/
     margin: 0 auto;
 }
 .carousel {
-    width: 1230%;
+    /*width: 1230%;*/
+    width: 100%;
     margin: 0 auto;
 }
 .specialmenu {
@@ -21,12 +23,21 @@ body{
 .carousel{
 
 }
+.iconline {
+    /*border-bottom: 0*/
+    border-radius: 0;
+    height: 70px;
+}
+.menuline {
+    padding-left: 0;
+    /*padding: 0;*/
+}
 /* 热点信息 */
 .hot{
     /*margin: 0;*/
     /*padding: 0;*/
-    width: 1230px;
-    /*width:1200px;*/
+    /*width: 1230px;*/
+    width:80%;
     height: 350px;
     /*border: 1px solid red;*/
     margin: 0 auto;
@@ -80,20 +91,25 @@ body{
     /*border: 1px solid darkslategray;*/
     /*display: inline;*/
     float: right;
+    border-radius: 10px;
 }
 .hot .mycycle .imagenews{
     width: 100%;
     height: 100%;
+        border-radius: 10px;
+
 }
 .hot .mycycle img{
     width: 100%;
     height: 100%;
     z-index: 1000;
+    border-radius: 10px;
+
 }
 /* 热点信息结束 */
 /*公务员模块*/
 .sy_gwy{
-    width: 1230px;
+    width: 80%;
     height: 320px;
     /*border: 1px solid red;*/
     margin: 0 auto;
