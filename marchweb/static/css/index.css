@@ -1,8 +1,12 @@
 body{
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
+    /*background-color: rgb(255,214,180);*/
 
     /*background-color: #f0f3ef;*/
+}
+.padding_clean{
+    padding-left: 0;
 }
 .navbar {
     width: 100%;
@@ -27,9 +31,12 @@ body{
     /*border-bottom: 0*/
     border-radius: 0;
     height: 70px;
+    width: 80%;
+    padding-left: 0;
 }
 .menuline {
     padding-left: 0;
+    width: 80%;
     /*padding: 0;*/
 }
 /* 热点信息 */
@@ -110,13 +117,14 @@ body{
 /*公务员模块*/
 .sy_gwy{
     width: 80%;
-    height: 320px;
+    height: 300px;
     /*border: 1px solid red;*/
     margin: 0 auto;
 }
 .sy_gwy .sy_gwy_titleline{
     width:100%;
     height:60px;
+    /*border-bottom: 2px solid red;*/
 }
 .sy_gwy .sy_gwy_titleline .sy_gwy_title{
     width: 252px;
@@ -174,6 +182,8 @@ body{
     /*border-top: 2px solid red;*/
     /*border-left: 1px solid red;*/
     /*border-right: 1px solid red;*/
+    border-radius: 10px;
+    background-color: cornflowerblue;
 }
 /*.sy_gwy .sy_gwy_titleline .sy_gwy_menu li:nth-child(2){*/
     /*left: 80px;*/
@@ -206,6 +216,7 @@ body{
 
 .sy_gwy .sy_gwy_container ul li a{
     color: #444;
+    text-decoration: none;
 }
 
 .sy_footer{
